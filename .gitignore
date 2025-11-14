@@ -1,0 +1,9 @@
+*.cmd
+*.dll
+*.bat
+*.lib
+*.exp
+*.obj
+nul
+/dist
+*~
