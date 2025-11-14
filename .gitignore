@@ -1,9 +1,37 @@
-*.cmd
-*.dll
-*.bat
-*.lib
-*.exp
+# Build artifacts
+build/
+dist/*.dll
+dist/*.so
 *.obj
+*.o
+*.exp
+*.lib
+*.a
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
 nul
-/dist
+
+# Backup files
 *~
+*.bak
+*.swp
+*.tmp
